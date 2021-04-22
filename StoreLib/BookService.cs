@@ -8,42 +8,44 @@ namespace StoreLib
     {
         private IBookRepo repo;
 
-        public BookService(IBookRepo repo) {
+        public BookService(IBookRepo repo)
+        {
             this.repo = repo;
         }
 
-        public void AddBook(Book book) {
+        public void AddBook(Book book)
+        {
             repo.AddBook(book);
         }
 
-        public void UpdateBook(Book book) {
-             repo.UpdateBook(book);
-         }
+        public void UpdateBook(Book book)
+        {
+            repo.UpdateBook(book);
+        }
 
-        public Book GetBookById(int id) {
-             Book book = repo.GetBookById(id);
-             return book;
-         }
+        public Book GetBookById(int id)
+        {
+            Book book = repo.GetBookById(id);
+            return book;
+        }
 
-        public Book GetBookByTitle(string title) {
-             Book book = repo.GetBookByTitle(title);
-             return book;
-         }
+        public Book GetBookByTitle(string title)
+        {
+            Book book = repo.GetBookByTitle(title);
+            return book;
+        }
 
-        public List<Book> GetAllBooks() {
-             List<Book> books = repo.GetAllBooks();
-             return books;
-         }
+        public List<Book> GetAllBooks()
+        {
+            List<Book> books = repo.GetAllBooks();
+            return books;
+        }
 
-        public List<Book> GetAllBooksAtLocationId(int id) {
-             List<Book> books = repo.GetAllBooksAtLocationId(id);
-             return books;
-         }
+        public void DeleteBook(Book book)
+        {
+            repo.DeleteBook(book);
+        }
 
-        public void DeleteBook(Book book) {
-             repo.DeleteBook(book);
-         }
 
-        
     }
 }
