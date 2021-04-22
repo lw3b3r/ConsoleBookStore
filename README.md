@@ -1,22 +1,17 @@
-# WeberLindsey-Project0
-
-# CF Books Store App
+# CF Books Store Console App
 
 ## Project Description
 
-This application is designed with functionality that would make virtual shopping much simpler! Customers can sign up for an account, place orders, view their order history, and specific location inventory. It also comes with an additional interface for managing your business. Managers can view and replenish location inventory, add new products, and view the order history of specific locations. This application used Entity Framework Core to connect to a PostgreSQL database, ASP.NET Core API to create a RESTful API, and HTML, CSS, BootstrapJS, and Javascript to create the front end.
+This application is designed with functionality that would make virtual shopping much simpler! Customers can sign up for an account, place orders, view their order history, and specific location inventory. It also comes with an additional interface for managing your business. Managers can view and replenish location inventory, add new products, and view the order history of specific locations. This application used Entity Framework Core to connect to a PostgreSQL database, and C# to create the front end.
 
 ## Technologies Used
 
 - C# Programming
 - ADO.NET Entity Framework Core
 - Testing Process / SDLC
-- HTML5
-- CSS3
 - Defect Logging
 - PostgreSQL
 - XML
-- Javascript
 
 ## Features
 
@@ -30,7 +25,7 @@ This application is designed with functionality that would make virtual shopping
 
 To-do list:
 
-- Add product details page to display book covers, full synopsis, as well as reviews
+- Add product details page to display book details, full synopsis, as well as reviews
 
 ## Getting Started
 
@@ -47,9 +42,9 @@ To Clone:
 
 After installation is complete and database migrated:
 
-> Open index.html inside the Main folder in the Web portion of the code repo. This is the main page for the front end of the CF Books Store App.
+> Use command `dotnet run --project Store.sln` to run the CF Books Store Console App.
 > From here, you will be able to create a user account or sign in to one.
-> Once signed in, you will find navigational links along the top of each web page to be able to view inventory, placce orders, view order history and change store locations.
+> Once signed in, you will be provided navigational prompts to be able to view inventory, place orders, view order history and change store locations.
 
 ## License
 

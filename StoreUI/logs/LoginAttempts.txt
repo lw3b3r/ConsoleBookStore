@@ -1,2 +1,0 @@
-2020-11-08 11:34:11.067 -05:00 [INF] User Deadpool signed in successfully
-2020-11-08 11:36:16.476 -05:00 [INF] User Deadpool signed in successfully
