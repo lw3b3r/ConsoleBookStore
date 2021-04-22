@@ -1,0 +1,4 @@
+2020-11-04 11:46:34.474 -05:00 [INF] User Deadpool signed in successfully
+2020-11-04 11:47:01.013 -05:00 [INF] User Deadpool attempted to sign in unsuccessfully
+2020-11-04 11:47:22.189 -05:00 [INF] A user has attempted to sign in to an account that does not exist using username: potato 
+2020-11-04 11:47:49.237 -05:00 [INF] User Deadpool signed in successfully
